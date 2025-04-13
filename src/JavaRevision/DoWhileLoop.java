@@ -1,14 +1,14 @@
-public class WhileLoop
+package JavaRevision;
+
+public class DoWhileLoop
 {
     public static void main(String args[])
     {
         int n=5;
         int i=0;
-        while(i<n)
-        {
+        do{
             System.out.println(i);
             i++;
-    }
-
+        }while(i<=n);
     }
 }

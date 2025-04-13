@@ -1,12 +1,13 @@
-public class DoWhileLoop
+package JavaRevision;
+
+public class ForLoop
 {
     public static void main(String args[])
     {
         int n=5;
-        int i=0;
-        do{
+        for(int i=0;i<=n;i++)
+        {
             System.out.println(i);
-            i++;
-        }while(i<=n);
+        }
     }
 }

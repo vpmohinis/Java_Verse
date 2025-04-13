@@ -1,3 +1,5 @@
+package JavaRevision;
+
 abstract class Animal{
     abstract void sound();
     void sound2(){
@@ -7,7 +9,7 @@ abstract class Animal{
 class Dog extends Animal{
    void sound()
    {
-       System.out.println("Dog sound: Bark");
+       System.out.println("JavaRevision.Dog sound: Bark");
    }
 }
 

@@ -1,3 +1,4 @@
+package JavaRevision;
 
 //it is used to explain multiple inheritance in java.
 //it has abstract methods only that means without body
