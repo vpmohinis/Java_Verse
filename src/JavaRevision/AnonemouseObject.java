@@ -2,7 +2,7 @@ package JavaRevision;
 
 class A
 {
-    public static void demo()
+    public void demo()
     {
         System.out.println("njihunk");
     }
@@ -12,7 +12,6 @@ public class AnonemouseObject
 {
     public static void main(String[] args)
     {
-       new A();
-       A.demo();
+       new A().demo();
     }
 }
