@@ -4,21 +4,20 @@ class Demo1{
     private int age;
     private String name;
 
-    public int getAge()
-    {
+    public int getAge() {
         return age;
     }
-    public String getName()
-    {
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
         return name;
     }
-    public void setAge(int a)
-    {
-        this.age=a;
-    }
-    public void setName(String n)
-    {
-        this.name=n;
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
 
