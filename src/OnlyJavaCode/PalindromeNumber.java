@@ -12,23 +12,25 @@ public class PalindromeNumber
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number: ");
         int number=sc.nextInt();
-        System.out.println("Number entered by you: ");
         int sum=0;
-        int remainder;
+        int reminder=0;
+
         int temp=number;
 
         while(number>0)
         {
-            remainder=number%10;
-            sum=(sum*10)+remainder;
+            reminder=number%10;
+            sum=(sum*10)+reminder;
             number=number/10;
         }
 
-        if(temp==sum){
+        if(temp==sum)
+        {
             System.out.println("Palindrome number");
         }
         else {
-            System.out.println("Not palindrome number");
+            System.out.println("Not palindrome");
         }
+
     }
 }
